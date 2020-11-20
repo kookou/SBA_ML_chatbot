@@ -14,13 +14,13 @@ from sqlalchemy.orm import sessionmaker
 db = SQLAlchemy()
 
 # aws rds 일때
-config = {
-    'user': 'mychatbot',
-    'password': 'mychatbot',
-    'host': 'mychatbot.chkq44slodcf.ap-northeast-2.rds.amazonaws.com',
-    'port': '3306',
-    'database': 'mychatbot'
-}
+# config = {
+#     'user': 'mychatbot',
+#     'password': 'mychatbot',
+#     'host': 'mychatbot.chkq44slodcf.ap-northeast-2.rds.amazonaws.com',
+#     'port': '3306',
+#     'database': 'mychatbot'
+# }
 
 # local mariadb 일 때
 # config = {
